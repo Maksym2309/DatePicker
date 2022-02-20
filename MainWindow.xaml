@@ -1,0 +1,18 @@
+﻿<Window x:Class="DatePicker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatePicker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="288" Width="315" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow">
+    <Grid>
+        <DatePicker x:Name="ageDatePicker" HorizontalAlignment="Left" Margin="24,72,0,0" VerticalAlignment="Top" Height="27" Width="253" Text="Введите дату вашего рождения"/>
+        <Label x:Name="tooltipLabel" Content="Введите дату вашего рождения:" HorizontalAlignment="Left" Margin="24,41,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="ageLabel" HorizontalAlignment="Left" Margin="24,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="inputButton" Content="Ввести" HorizontalAlignment="Left" Margin="24,0,0,0" VerticalAlignment="Center" Height="23" Width="126" Click="inputButton_Click"/>
+        <TextBlock x:Name="zodiacLabel" HorizontalAlignment="Left" Margin="24,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="yearLabel" HorizontalAlignment="Left" Margin="24,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
